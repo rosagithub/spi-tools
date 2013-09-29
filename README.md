@@ -40,16 +40,16 @@ DOCUMENTATION
 
 See the spidev_test usage from the console :
 
- *      "  -D --device   device to use (default /dev/spidev1.1)"
- *      "  -s --speed    max speed (Hz)"
- *      "  -d --delay    delay (usec)"
- *      "  -b --bpw      bits per word "
- *      "  -l --loop     loopback"
- *      "  -H --cpha     clock phase"
- *      "  -O --cpol     clock polarity"
- *      "  -L --lsb      least significant bit first"
- *      "  -C --cs-high  chip select active high"
- *      "  -3 --3wire    SI/SO signals shared"
+ *      -D --device   device to use (default /dev/spidev1.1)
+ *      -s --speed    max speed (Hz)
+ *      -d --delay    delay (usec)
+ *      -b --bpw      bits per word
+ *      -l --loop     loopback
+ *      -H --cpha     clock phase
+ *      -O --cpol     clock polarity
+ *      -L --lsb      least significant bit first
+ *      -C --cs-high  chip select active high
+ *      -3 --3wire    SI/SO signals shared
 
 
 QUESTIONS AND BUG REPORTS
