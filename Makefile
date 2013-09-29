@@ -26,5 +26,5 @@ clean:
 	@rm -f $(EXEC)
 
 install: $(EXEC)
-	@mkdir -p $(DEST_DIR)/usr/bin/
-	@cp $(EXEC) $(DEST_DIR)/usr/bin/
+	@mkdir -p $(DESTDIR)/usr/bin/
+	@cp $(EXEC) $(DESTDIR)/usr/bin/

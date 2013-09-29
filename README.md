@@ -25,9 +25,9 @@ but you can change this behavior by editing the Makefile file and setting
 prefix to wherever you want. You may change the C compiler and the
 compilation flags as well.
 
-In a cross environment, you can use DEST_DIR make variable to prefix
+In a cross environment, you can use DESTDIR make variable to prefix
 the intall path. For example, do:
-  $ make install DEST=$PWD/install
+  $ make install DESTDIR=$PWD/install
 
 
 If you wish to cross compile, then just set the cross compiler prefix via
