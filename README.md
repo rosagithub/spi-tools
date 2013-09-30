@@ -50,6 +50,7 @@ See the spidev_test usage from the console :
  *      -L --lsb      least significant bit first
  *      -C --cs-high  chip select active high
  *      -3 --3wire    SI/SO signals shared
+ *      -X --xData    to specify the data to send to the SPI bus
 
 
 QUESTIONS AND BUG REPORTS
