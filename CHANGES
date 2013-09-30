@@ -2,6 +2,9 @@ spi-tools CHANGES
 -----------------
 
 
+1.0.1 (2013-09-30)
+  Add -X command to send message without rebuild the tool.
+
 1.0.0 (2013-09-29)
   Initial release
   Import version from
